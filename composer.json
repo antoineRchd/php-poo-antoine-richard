@@ -1,0 +1,21 @@
+{
+    "name": "antoi/php-poo-antoine-richard",
+    "autoload": {
+        "psr-4": {
+            "Antoi\\PhpPooAntoineRichard\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "antoine richard",
+            "email": "antoine.richard91@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^6.2",
+        "phpunit/phpunit": "^9.5",
+        "squizlabs/php_codesniffer": "*",
+        "phpunit/php-code-coverage": "^9.2"
+    },
+    "require-dev": {}
+}
